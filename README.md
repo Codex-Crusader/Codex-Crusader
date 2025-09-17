@@ -31,7 +31,7 @@
 ## 📊 GitHub Highlights  
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=Codex-Crusader&show_icons=true&theme=radical&hide_border=true" alt="GitHub Stats" height="170" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Codex-Crusader&theme=radical&hide_border=true" alt="GitHub Streak" height="170" />
+  ![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=Codex-Crusader&theme=radical&hide_border=true)
 </p>
 
 ---
