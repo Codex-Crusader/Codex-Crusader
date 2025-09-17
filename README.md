@@ -38,11 +38,11 @@
 
 ## ✨ Fun Bits About Me
 
-- ☕💢 Coffee Rage Enjoyer — code fuels me and sometimes rages me  
-- 🧩 I look at puzzles, and they stare back at me… then flinch  
+- ☕💢 Coffee Rage Enjoyer, code fuels me and ALWAYS rages me. A sucker for mental Torture.
+- 🧩 I stare into the puzzles, and they stare back at me… then they flinch  
 - ⏱️ Hyper-fixated on fixing code until it’s done (literally spent 20 hours on a semicolon)  
 - 🌌 Philosophy: *"The world has no meaning, but I give it mine"*  
-- ⚡ “Get things done” — coded, not just optimized for efficiency  
+- ⚡ I am “Get things done” coded not just "efficiency coded"  
 - 🐾 Samoyed Lover  
 - 🎮 Soulsborne & Story-based Masochist  
 
