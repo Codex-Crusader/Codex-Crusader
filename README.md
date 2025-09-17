@@ -40,7 +40,7 @@
 
 - ☕💢 Coffee Rage Enjoyer — code fuels me and sometimes rages me  
 - 🧩 I look at puzzles, and they stare back at me… then flinch  
-- ⏱️ Hyper-fixated on fixing code until it’s done (literally spent 4 hours on a semicolon)  
+- ⏱️ Hyper-fixated on fixing code until it’s done (literally spent 20 hours on a semicolon)  
 - 🌌 Philosophy: *"The world has no meaning, but I give it mine"*  
 - ⚡ “Get things done” — coded, not just optimized for efficiency  
 - 🐾 Samoyed Lover  
