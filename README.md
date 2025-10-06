@@ -57,4 +57,4 @@
 
 ---
 
-<p align="center">“Code is for humans first, the machines second.”</p>
+<p align="center"> “Code is for humans first, the machines second.” </p>
