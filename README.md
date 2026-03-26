@@ -35,6 +35,17 @@
   <img src="https://img.shields.io/badge/Regex-FF4088?style=for-the-badge&logo=&logoColor=white" />
 </p>
 
+## 📊 GitHub Stats (The Brutal Truth)
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=Codex-Crusader&show_icons=true&theme=tokyonight&hide_border=true" height="180"/>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Codex-Crusader&theme=tokyonight&hide_border=true" height="180"/>
+</p>
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Codex-Crusader&layout=compact&theme=tokyonight&hide_border=true"/>
+</p>
+
 **Proficiency Levels:**
 - ⚡ **Python:** Can write it in my sleep (have debugged it in nightmares)
 - 🐧 **Linux:** `rm -rf /` is just a myth I tested once
