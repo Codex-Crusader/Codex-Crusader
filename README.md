@@ -26,13 +26,7 @@
 ## 🛠️ Tech Stack (Things I Frantically Google)
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" />
-  <img src="https://img.shields.io/badge/SQL-336791?style=for-the-badge&logo=postgresql&logoColor=white" />
-  <img src="https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=tableau&logoColor=white" />
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
-  <img src="https://img.shields.io/badge/Coffee-6F4E37?style=for-the-badge&logo=buymeacoffee&logoColor=white" />
-  <img src="https://img.shields.io/badge/Regex-FF4088?style=for-the-badge&logo=&logoColor=white" />
+  <img src="https://skillicons.dev/icons?i=python,flask,html,css,cpp,git,github,linux,bash" />
 </p>
 
 ## 📊 GitHub Stats (The Brutal Truth)
