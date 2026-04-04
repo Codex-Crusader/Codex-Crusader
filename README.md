@@ -153,5 +153,6 @@ while True:
 **💀 Current Streak: 247 days without accidentally `git push --force` to main**
 
 ![Made With](https://img.shields.io/badge/Made_With-Chaos_&_Caffeine-blueviolet?style=for-the-badge)
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/M4M11X86KI)
 
 </div>
