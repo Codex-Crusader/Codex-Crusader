@@ -19,6 +19,8 @@ Soulsborne player who genuinely enjoys dying repeatedly and calling it a hobby. 
 Gets hyper-fixated on problems until they stop existing. This works out about 70% of the time.
 
 ---
+![Snake](https://raw.githubusercontent.com/Codex-Crusader/Codex-Crusader/output/github-contribution-grid-snake-dark.svg)
+---
 
 ## What I'm building
 
@@ -60,9 +62,6 @@ Stack: `Python` · `yfinance` · `VADER + custom financial lexicon` · `Streamli
 <p align="center">
   <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=Codex-Crusader&show_icons=true&theme=tokyonight&hide_border=true" height="170"/>
   <img src="https://streak-stats.demolab.com?user=Codex-Crusader&theme=tokyonight&hide_border=true" height="170"/>
-</p>
-
-<p align="center">
   <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=Codex-Crusader&layout=compact&theme=tokyonight&hide_border=true"/>
 </p>
 
@@ -71,8 +70,6 @@ Stack: `Python` · `yfinance` · `VADER + custom financial lexicon` · `Streamli
 ![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Codex-Crusader&theme=tokyo-night&hide_border=true)
 
 <br/>
-
-![Snake](https://raw.githubusercontent.com/Codex-Crusader/Codex-Crusader/output/github-contribution-grid-snake-dark.svg)
 
 ---
 
