@@ -1,158 +1,117 @@
-# ✨ Bhargavaram Krishnapur ✨
+# Bhargavaram Krishnapur
 
-### aka **Codex-Crusader** · he/him · *Professional Chaos Orchestrator*
+**`Builder · Open-Source · AI/ML`** &nbsp;·&nbsp; he/him &nbsp;·&nbsp; Vijaybhoomi University, CSE '27
 
 <div align="center">
 
-![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=2000&pause=500&color=9D5CFF&center=true&vCenter=true&random=true&width=650&lines=%F0%9F%92%A5+Breaking+prod+since+2023;%F0%9F%94%A5+Stack+Overflow+Tab+Collector;%E2%98%95+Caffeinated+Code+Demon;%F0%9F%90%9B+Bug+Whisperer+(they+don't+listen);%F0%9F%A7%A0+Overthinking+in+O(n%C2%B2);%F0%9F%92%BB+Ctrl+Z+is+my+religion;%F0%9F%95%B3%EF%B8%8F+404%3A+Sleep+Not+Found)
-
-### 🎭 Current Status: `Caffeinated && !Sleeping && Debugging_Reality`
+![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=18&duration=2500&pause=600&color=9D5CFF&center=true&vCenter=true&width=620&lines=Co-founder+%40+PulseEngine;Market+Intelligence+%7C+No+paid+APIs%2C+just+signal;AI%2FML+%7C+Python+%7C+Open-Source;VP+Sustainability+%7C+Student+Council;Building+things+that+shouldn't+work+but+do)
 
 </div>
 
 ---
 
-## 🌟 About This Absolute Unit of a Human  
-- 🎓 Second-year **Computer Science Engineering** student *(surprisingly still enrolled)*
-- 🔐 **Cybersecurity Enthusiast** — breaking things ethically since I learned `sudo`
-- 🐧 **Linux Devotee** — Yes, I use Arch btw *(I don't, but the energy is there)*
-- ✍️ Chaos documenter at **[Zero Day Notes](https://zerodaynotes101.blogspot.com/)** — where I explain things I barely understand
-- 🤝 Open-source contributor & professional rubber duck debugger
-- 🌱 Currently: Building Python projects that *mostly* work & breaking web apps for ~~fun~~ science
-- 🎯 Life Goal: Write code so clean it makes Marie Kondo jealous (currently failing spectacularly)
+## About me
+
+Second-year CS student who builds things because they seem interesting, not because there's a roadmap. No grand mission statement — just a bias for action and a high tolerance for things being broken.
+
+Soulsborne player who genuinely enjoys dying repeatedly and calling it a hobby. Would probably debug faster with a Samoyed next to me. Runs best between 11 PM and 4 AM, same as my code.
+
+Gets hyper-fixated on problems until they stop existing. This works out about 70% of the time.
 
 ---
 
-## 🛠️ Tech Stack (Things I Frantically Google)
+## What I'm building
+
+**[PulseEngine](https://github.com/The-Pulse-Engine)** - An open-source developer community I co-founded with [@SudoMayo](https://github.com/SudoMayo).
+We build local-first, privacy-respecting tools under the MIT license.
+
+> **First project live:** A [Market Intelligence Platform](https://github.com/The-Pulse-Engine/Pulse-Engine_Market_Intelligence_Platform) tracking **24 assets** and **12 RSS feeds** with composite signal scoring (−10 to +10). Runs entirely locally - no paid APIs, no vendor lock-in.
+
+Stack: `Python` · `yfinance` · `VADER + custom financial lexicon` · `Streamlit` · `Plotly`
+
+---
+
+## Projects
+
+| Project | What it does | Stars |
+|---|---|---|
+| ♟️ [azlite_type_chess_bot](https://github.com/Codex-Crusader/azlite_type_chess_bot) | AlphaZero-inspired chess engine — MCTS + neural net for policy/value, self-play training, CLI play | ⭐ 5 |
+| 🧠 [Quantum-Neural-Horror](https://github.com/Codex-Crusader/Quantum-Neural-Horror) | Neuroevolution sandbox — neural net mutates its own topology, activation functions, and weights live | ⭐ 2 |
+| 🏀 [Uni-Basketball-ETL-Pipeline](https://github.com/Codex-Crusader/Uni-basketball-ETL-pipeline) | Self-improving NCAA predictor — auto-fetches ESPN data, trains 6 models, no API key needed | ⭐ 2 |
+| 🔒 [digital-footprint-cleaner](https://github.com/Codex-Crusader/digital-footprint-cleaner) | Privacy-first Flask app to locate and erase digital footprint across public sites | ⭐ 1 |
+| 🖼️ [Image-Protector](https://github.com/Codex-Crusader/Image-Protector) | Obfuscates images against automated scraping and basic ML analysis | ⭐ 1 |
+| 🐒 [infinite-monkeys](https://github.com/Codex-Crusader/infinite-monkeys) | Infinite Monkey Theorem simulator using true multiprocessing parallelism | ⭐ 3 |
+| ☠️ [coding-war-crimes](https://github.com/Codex-Crusader/coding-war-crimes) | Intentionally bad code — documents anti-patterns to understand why best practices exist | ⭐ 3 |
+
+---
+
+## Tech Stack
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=python,flask,html,css,cpp,git,github,linux,bash" />
+  <img src="https://skillicons.dev/icons?i=python,flask,sklearn,git,github,linux,bash,html,css" />
 </p>
 
-## 📊 GitHub Stats (The Brutal Truth)
+**Comfortable with:** Machine Learning (Decision Tree, Naïve Bayes, k-NN, ensemble methods) · Sentiment Analysis · REST APIs · Multiprocessing · MCTS · Snowflake · Railway deployment · Generative AI tooling
+
+---
+
+## GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=Codex-Crusader&show_icons=true&theme=tokyonight&hide_border=true" height="180"/>
-  <img src="https://streak-stats.demolab.com?user=Codex-Crusader&theme=tokyonight&hide_border=true" height="180"/>
+  <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=Codex-Crusader&show_icons=true&theme=tokyonight&hide_border=true" height="170"/>
+  <img src="https://streak-stats.demolab.com?user=Codex-Crusader&theme=tokyonight&hide_border=true" height="170"/>
 </p>
 
 <p align="center">
   <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=Codex-Crusader&layout=compact&theme=tokyonight&hide_border=true"/>
 </p>
 
-**Proficiency Levels:**
-- ⚡ **Python:** Can write it in my sleep (have debugged it in nightmares)
-- 🐧 **Linux:** `rm -rf /` is just a myth I tested once
-- 🗃️ **SQL:** `DROP TABLE users;` —wait, where'd everyone go?
-- 🎨 **Git:** 473 commits titled "fix", "final fix", "actual final fix", "pls work"
+<br/>
+
+![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Codex-Crusader&theme=tokyo-night&hide_border=true)
+
+<br/>
+
+![Snake](https://raw.githubusercontent.com/Codex-Crusader/Codex-Crusader/output/github-contribution-grid-snake-dark.svg)
 
 ---
 
-## 🎪 The Chaotic Reality of Codex-Crusader
+## Beyond code
 
-### ⚡ Current Vibe Check:
-```python
-while True:
-    coffee.drink()
-    if code.works():
-        break  # This line has never been reached
-    else:
-        existential_crisis()
-        add_random_semicolon()
-```
-
-### ☕💢 Certified Coffee Rage Enjoyer™
-- **Morning:** ☕ "Today I will write elegant, maintainable code"
-- **Afternoon:** ☕☕ "Why did past me write this garbage?"
-- **Evening:** ☕☕☕ *stares at screen* "I am the garbage"
-- **3 AM:** ☕☕☕☕ "I HAVE ACHIEVED ENLIGHTENMENT" *(it was a missing comma)*
-
-### 🧩 Problem-Solving Philosophy:
-> "I don't just solve problems. I stare into them until they blink first, question their existence, and then occasionally solve them at 3 AM while brushing my teeth."
-
-### 💀 War Stories:
-- ⏱️ **Personal Record:** 20 consecutive hours debugging (culprit: semicolon on line 847)
-- 🔥 **Achievement Unlocked:** Made production crash 3 times in one day (it's called *consistency*)
-- 🎯 **Superpower:** Can spot bugs in other people's code but not my own
-- 🌙 **Night Owl Status:** My code runs best between 11 PM and 5 AM (me too, apparently)
-- 🎲 **Dice Roll Development:** 50% chance any commit breaks everything, 50% chance it fixes something unrelated
-
-### 🌌 Life Philosophy:
-*"The world has no meaning, but I give it mine. And mine involves way too many print statements and not enough sleep."*
-
-### 🎮 Gaming Preferences (Pain = Entertainment):
-- 🗡️ **Soulsborne Masochist** — "You Died" is my love language
-- 📖 **Story-based Games** — Will ugly cry at pixels
-- 🎯 Achievement: Finished Elden Ring with a build made entirely of bad decisions
-
-### 🐕 Dog Dad Energy:
-- 🐾 **Samoyed Lover** — Fluffy clouds with attitude
-- 💭 If I could debug with a Samoyed next to me, all bugs would fear me
-
-### 🧠 Brain Settings:
-- ⚡ **Hyper-fixation Mode:** `ENABLED` (will not stop until it's ~~perfect~~ functional)
-- 🎯 **Get Shit Done Coded™:** Not efficiency coded, just violently productive
-- 🌀 **Overthinking Protocol:** Why use O(n) when you can spiral into O(n³)?
-- 🎭 **Imposter Syndrome:** `sudo apt-get remove imposter_syndrome` *(access denied)*
+- 🏃 **Co-Head, Kanyathon** (Mumbai Division) - women-focused charity marathon; managed 30 volunteers, 100+ CSR cold outreaches, full sponsorship pipeline
+- 🎙️ Working on a podcast exploring AI's impact on Indian CS students — focused on the tensions, not the hype
+- 💼 Freelancing on Fiverr and privately - data analytics, startup grunt work, and whatever interesting problems people need solved
+- 🔧 Somewhere in the open-source world, making small things slightly less broken
 
 ---
 
-## 📊 GitLab Stats That Make Me Question Everything
+## Currently
+
+- Growing the PulseEngine community: LinkedIn → Discord → daily GitHub commits
+- Exploring AI/ML applications where the data is messy and the stakes are real
+- Reading everything I can about developer tooling, open-source sustainability, and labor economics in tech
+
+---
+
+## Connect
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Bugs_Created-∞-red?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Bugs_Fixed-∞-1-green?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Coffee_Consumed-Critical_Levels-brown?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Sleep_Schedule-Destroyed-purple?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Sanity-Questionable-orange?style=for-the-badge" />
-</p>
-
----
-
-## 🎬 Famous Last Words (Commit Messages)
-```
-"Quick fix before lunch"
-"This should work now"
-"Final version (for real this time)"
-"I have no idea why this works"
-"TODO: Refactor this entire mess"
-"Fixed the bug (created 3 more)"
-"Don't ask me to explain this"
-```
-
----
-
-## 🌐 Connect With This Chaotic Entity  
-
-<p align="center">
-  <a href="https://www.linkedin.com/in/bhargavaram-krishnapur/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
-  <a href="https://github.com/Codex-Crusader"><img src="https://img.shields.io/badge/GitHub-171515?style=for-the-badge&logo=github&logoColor=white"/></a>
-  <a href="https://gitlab.com/Codex-Crusader"><img src="https://img.shields.io/badge/GitLab-FC6D26?style=for-the-badge&logo=gitlab&logoColor=white"/></a>
-  <a href="mailto:bhargavaramkrishnapur@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
-  <a href="https://zerodaynotes101.blogspot.com/"><img src="https://img.shields.io/badge/Blog-FF5722?style=for-the-badge&logo=blogger&logoColor=white"/></a>
+  <a href="https://www.linkedin.com/in/bhargavaram-krishnapur/">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
+  </a>
+  <a href="https://github.com/Codex-Crusader">
+    <img src="https://img.shields.io/badge/GitHub-171515?style=for-the-badge&logo=github&logoColor=white"/>
+  </a>
+  <a href="https://gitlab.com/Codex-Crusader">
+    <img src="https://img.shields.io/badge/GitLab-FC6D26?style=for-the-badge&logo=gitlab&logoColor=white"/>
+  </a>
+  <a href="mailto:bhargavaramkrishnapur@gmail.com">
+    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
+  </a>
 </p>
 
 ---
 
 <div align="center">
-
-### 💭 Mantras I Live By:
-
-*"Code is for humans first, machines second, and Stack Overflow third."*
-
-*"If it compiles on the first try, you're not trying hard enough."*
-
-*"There are 10 types of people: those who understand binary and those who don't, and those who didn't expect a ternary joke."*
-
----
-
-<sub>⚠️ Warning: May spontaneously start explaining Linux kernel architecture at parties</sub>
-
-<sub>🎪 Side effects include: excessive caffeine consumption, talking to rubber ducks, and an unhealthy relationship with git rebase</sub>
-
-**💀 Current Streak: 247 days without accidentally `git push --force` to main**
-
-![Made With](https://img.shields.io/badge/Made_With-Chaos_&_Caffeine-blueviolet?style=for-the-badge)
-[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/M4M11X86KI)
-
+  <sub>Code is for humans first, machines second. Building things that matter, one commit at a time.</sub>
 </div>
