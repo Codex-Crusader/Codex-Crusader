@@ -12,7 +12,7 @@
 
 ## About me
 
-Second-year CS student who builds things because they seem interesting, not because there's a roadmap. No grand mission statement — just a bias for action and a high tolerance for things being broken.
+Second-year CS student who builds things because they seem interesting, not because there's a roadmap. No grand mission statement, just a bias for action and a high tolerance for things being broken.
 
 Soulsborne player who genuinely enjoys dying repeatedly and calling it a hobby. Would probably debug faster with a Samoyed next to me. Runs best between 11 PM and 4 AM, same as my code.
 
