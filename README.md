@@ -4,7 +4,7 @@
 
 <div align="center">
 
-![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=18&duration=2500&pause=600&color=9D5CFF&center=true&vCenter=true&width=620&lines=Co-founder+%40+PulseEngine;Market+Intelligence+%7C+No+paid+APIs%2C+just+signal;AI%2FML+%7C+Python+%7C+Open-Source;VP+Sustainability+%7C+Student+Council;Building+things+that+shouldn't+work+but+do)
+![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=18&duration=2500&pause=600&color=9D5CFF&center=true&vCenter=true&width=620&lines=Co-founder+%40+PulseEngine;Market+Intelligence+%7C+No+paid+APIs%2C+just+signal;AI%2FML+%7C+Python+%7C+Open-Source;Building+things+that+shouldn't+work+but+do)
 
 </div>
 
