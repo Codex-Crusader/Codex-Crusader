@@ -36,8 +36,8 @@ def build_table(repos):
         stars = f"⭐ {r['stargazers_count']}"
         raw_desc = (r["description"] or "—").replace("|", "\\|")
         repo_url = f"https://github.com/{USERNAME}/{r['name']}"
-        if len(raw_desc) > 60:
-            desc = f"{raw_desc[:60]}... [read more]({repo_url})"
+        if len(raw_desc) > 80:
+            desc = f"{raw_desc[:80]}... [read more]({repo_url})"
         else:
             desc = raw_desc
         lines.append(f"| {name} | {stars} | {desc} |")
