@@ -34,7 +34,12 @@ def build_table(repos):
     for r in owned:
         name = f"[{r['name']}](https://github.com/{USERNAME}/{r['name']})"
         stars = f"⭐ {r['stargazers_count']}"
-        desc = r["description"] or "—"
+        raw_desc = (r["description"] or "—").replace("|", "\\|")
+        repo_url = f"https://github.com/{USERNAME}/{r['name']}"
+        if len(raw_desc) > 60:
+            desc = f"{raw_desc[:60]}... [read more]({repo_url})"
+        else:
+            desc = raw_desc
         lines.append(f"| {name} | {stars} | {desc} |")
 
     return "\n".join(lines)
