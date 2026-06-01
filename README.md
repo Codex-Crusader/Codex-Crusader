@@ -1,4 +1,6 @@
-# Bhargavaram Krishnapur
+<img src="https://capsule-render.vercel.app/api?type=waving&color=9D5CFF&height=120&section=header&animation=fadeIn" width="100%"/>
+
+<h1 align="center">Bhargavaram Krishnapur</h1>
 
 [![Don't Click](https://img.shields.io/badge/DANGER-Do__Not__Click-red?style=for-the-badge&logo=probot)](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
 [![CommitCrimes](https://commitcrimes.dev/badge/Codex-Crusader.svg)](https://commitcrimes.dev/u/Codex-Crusader)
@@ -7,11 +9,11 @@
 
 <div align="center">
 
-![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=18&duration=2500&pause=600&color=9D5CFF&center=true&vCenter=true&width=620&lines=Co-founder+%40+PulseEngine;Market+Intelligence+%7C+No+paid+APIs%2C+just+signal;AI%2FML+%7C+Python+%7C+Open-Source;Building+things+that+shouldn't+work+but+do)
+![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=18&duration=2500&pause=600&color=9D5CFF&center=true&vCenter=true&width=620&lines=Co-founder+%40+PulseEngine;i+wrote+this+at+2am+please+go+to+sleep;AI%2FML+%7C+Python+%7C+Open-Source;the+code+works%2C+don%27t+ask+why;Building+things+that+shouldn%27t+work+but+do;git+push+--force+%28don%27t+do+this%29;Market+Intelligence+%7C+No+paid+APIs%2C+just+signal;currently+being+humbled+by+a+compiler;bro+you%27re+still+reading+this%3F;yes+i+named+a+repo+coding-war-crimes;touch+grass+challenge+%3A+failed;AAAAAAAAAAAH%21%21)
 
 </div>
 
----
+<img src="https://capsule-render.vercel.app/api?type=soft&color=9D5CFF&height=3&section=header" width="100%"/>
 
 ## About me
 
@@ -21,9 +23,15 @@ Soulsborne player who genuinely enjoys dying repeatedly and calling it a hobby. 
 
 Gets hyper-fixated on problems until they stop existing. This works out about 70% of the time.
 
----
+<img src="https://capsule-render.vercel.app/api?type=soft&color=9D5CFF&height=3&section=header" width="100%"/>
+
+<div align="center">
+
 ![Snake](https://raw.githubusercontent.com/Codex-Crusader/Codex-Crusader/output/github-contribution-grid-snake-dark.svg)
----
+
+</div>
+
+<img src="https://capsule-render.vercel.app/api?type=soft&color=9D5CFF&height=3&section=header" width="100%"/>
 
 ## What I'm building
 
@@ -34,7 +42,7 @@ We build local-first, privacy-respecting tools under the MIT license.
 
 Stack: `Python` · `yfinance` · `VADER + custom financial lexicon` · `Streamlit` · `Plotly`
 
----
+<img src="https://capsule-render.vercel.app/api?type=soft&color=9D5CFF&height=3&section=header" width="100%"/>
 
 ## Projects
 
@@ -53,7 +61,7 @@ Stack: `Python` · `yfinance` · `VADER + custom financial lexicon` · `Streamli
 | [digital-footprint-cleaner](https://github.com/Codex-Crusader/digital-footprint-cleaner) | ⭐ 12 | A privacy-first web app that helps users locate and erase their digital footprin... [read more](https://github.com/Codex-Crusader/digital-footprint-cleaner) |
 <!-- REPOS_END -->
 
----
+<img src="https://capsule-render.vercel.app/api?type=soft&color=9D5CFF&height=3&section=header" width="100%"/>
 
 ## Tech Stack
 
@@ -63,7 +71,7 @@ Stack: `Python` · `yfinance` · `VADER + custom financial lexicon` · `Streamli
 
 **Comfortable with:** Machine Learning (Decision Tree, Naïve Bayes, k-NN, ensemble methods) · Sentiment Analysis · REST APIs · Multiprocessing · MCTS · Snowflake · Railway deployment · Generative AI tooling
 
----
+<img src="https://capsule-render.vercel.app/api?type=soft&color=9D5CFF&height=3&section=header" width="100%"/>
 
 ## GitHub Stats
 
@@ -79,7 +87,7 @@ Stack: `Python` · `yfinance` · `VADER + custom financial lexicon` · `Streamli
 
 <br/>
 
----
+<img src="https://capsule-render.vercel.app/api?type=soft&color=9D5CFF&height=3&section=header" width="100%"/>
 
 ## Beyond code
 
@@ -88,7 +96,7 @@ Stack: `Python` · `yfinance` · `VADER + custom financial lexicon` · `Streamli
 - 💼 Freelancing on Fiverr and privately - data analytics, startup grunt work, and whatever interesting problems people need solved
 - 🔧 Somewhere in the open-source world, making small things slightly less broken
 
----
+<img src="https://capsule-render.vercel.app/api?type=soft&color=9D5CFF&height=3&section=header" width="100%"/>
 
 ## Currently
 
@@ -96,7 +104,7 @@ Stack: `Python` · `yfinance` · `VADER + custom financial lexicon` · `Streamli
 - Exploring AI/ML applications where the data is messy and the stakes are real
 - Reading everything I can about developer tooling, open-source sustainability, and labor economics in tech
 
----
+<img src="https://capsule-render.vercel.app/api?type=soft&color=9D5CFF&height=3&section=header" width="100%"/>
 
 ## Connect
 
@@ -115,8 +123,10 @@ Stack: `Python` · `yfinance` · `VADER + custom financial lexicon` · `Streamli
   </a>
 </p>
 
----
+<img src="https://capsule-render.vercel.app/api?type=soft&color=9D5CFF&height=3&section=header" width="100%"/>
 
 <div align="center">
   <sub>Code is for humans first, machines second. Building things that matter, one commit at a time.</sub>
 </div>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=9D5CFF&height=120&section=footer&animation=fadeIn" width="100%"/>
