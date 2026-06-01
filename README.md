@@ -1,5 +1,8 @@
 # Bhargavaram Krishnapur
 
+[![Don't Click](https://img.shields.io/badge/DANGER-Do__Not__Click-red?style=for-the-badge&logo=probot)](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
+[![CommitCrimes](https://commitcrimes.dev/badge/Codex-Crusader.svg)](https://commitcrimes.dev/u/Codex-Crusader)
+
 **`Builder · Open-Source · AI/ML`** &nbsp;·&nbsp; he/him &nbsp;·&nbsp; Vijaybhoomi University, CSE '27
 
 <div align="center">
