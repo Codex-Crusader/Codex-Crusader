@@ -38,16 +38,6 @@ Stack: `Python` · `yfinance` · `VADER + custom financial lexicon` · `Streamli
 
 ## Projects
 
-| Project | What it does | Stars |
-|---|---|---|
-| ♟️ [azlite_type_chess_bot](https://github.com/Codex-Crusader/azlite_type_chess_bot) | AlphaZero-inspired chess engine — MCTS + neural net for policy/value, self-play training, CLI play | ⭐ 5 |
-| 🧠 [Quantum-Neural-Horror](https://github.com/Codex-Crusader/Quantum-Neural-Horror) | Neuroevolution sandbox — neural net mutates its own topology, activation functions, and weights live | ⭐ 2 |
-| 🏀 [Uni-Basketball-ETL-Pipeline](https://github.com/Codex-Crusader/Uni-basketball-ETL-pipeline) | Self-improving NCAA predictor — auto-fetches ESPN data, trains 6 models, no API key needed | ⭐ 2 |
-| 🔒 [digital-footprint-cleaner](https://github.com/Codex-Crusader/digital-footprint-cleaner) | Privacy-first Flask app to locate and erase digital footprint across public sites | ⭐ 1 |
-| 🖼️ [Image-Protector](https://github.com/Codex-Crusader/Image-Protector) | Obfuscates images against automated scraping and basic ML analysis | ⭐ 1 |
-| 🐒 [infinite-monkeys](https://github.com/Codex-Crusader/infinite-monkeys) | Infinite Monkey Theorem simulator using true multiprocessing parallelism | ⭐ 3 |
-| ☠️ [coding-war-crimes](https://github.com/Codex-Crusader/coding-war-crimes) | Intentionally bad code — documents anti-patterns to understand why best practices exist | ⭐ 3 |
-
 <!-- REPOS_START -->
 | Repository | Stars | Description |
 |------------|-------|-------------|
