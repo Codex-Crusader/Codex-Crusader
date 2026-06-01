@@ -16,7 +16,7 @@ jobs:
       - name: Update repo table in README
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: python3 .github/scripts/update_repos.py
+        run: python3 .github/scripts/update_repos.py 2>&1
 
       - name: Commit changes
         run: |
