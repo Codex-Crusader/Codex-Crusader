@@ -48,6 +48,9 @@ Stack: `Python` · `yfinance` · `VADER + custom financial lexicon` · `Streamli
 | 🐒 [infinite-monkeys](https://github.com/Codex-Crusader/infinite-monkeys) | Infinite Monkey Theorem simulator using true multiprocessing parallelism | ⭐ 3 |
 | ☠️ [coding-war-crimes](https://github.com/Codex-Crusader/coding-war-crimes) | Intentionally bad code — documents anti-patterns to understand why best practices exist | ⭐ 3 |
 
+<!-- REPOS_START -->
+<!-- REPOS_END -->
+
 ---
 
 ## Tech Stack
