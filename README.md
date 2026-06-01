@@ -4,6 +4,7 @@
 
 [![Don't Click](https://img.shields.io/badge/DANGER-Do__Not__Click-red?style=for-the-badge&logo=probot)](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
 [![CommitCrimes](https://commitcrimes.dev/badge/Codex-Crusader.svg)](https://commitcrimes.dev/u/Codex-Crusader)
+[![Roast My Code](https://img.shields.io/badge/Roast_My_Code-View_Roast-red?style=for-the-badge&logo=github)](https://roastmycode.ai/Codex-Crusader)
 
 **`Builder · Open-Source · AI/ML`** &nbsp;·&nbsp; he/him &nbsp;·&nbsp; Vijaybhoomi University, CSE '27
 
