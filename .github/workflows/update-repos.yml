@@ -1,0 +1,25 @@
+name: Update Repo Table
+
+on:
+  schedule:
+    - cron: '0 0 * * *'  # runs daily at midnight UTC
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Update repo table in README
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python3 .github/scripts/update_repos.py
+
+      - name: Commit changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git diff --quiet && git diff --staged --quiet || (git add README.md && git commit -m "chore: update repo table" && git push)
