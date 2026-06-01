@@ -41,16 +41,16 @@ Stack: `Python` · `yfinance` · `VADER + custom financial lexicon` · `Streamli
 <!-- REPOS_START -->
 | Repository | Stars | Description |
 |------------|-------|-------------|
-| [Stack-Sight](https://github.com/Codex-Crusader/Stack-Sight) | ⭐ 1 | Your browser, finally organised. A local-only Chrome extensi... [read more](https://github.com/Codex-Crusader/Stack-Sight) |
-| [Uni-basketball-ETL-pipeline](https://github.com/Codex-Crusader/Uni-basketball-ETL-pipeline) | ⭐ 2 | Self-improving NCAA basketball predictor - auto-fetches ESPN... [read more](https://github.com/Codex-Crusader/Uni-basketball-ETL-pipeline) |
-| [Image-Protector](https://github.com/Codex-Crusader/Image-Protector) | ⭐ 3 | A small Python tool to obfuscate images against automated sc... [read more](https://github.com/Codex-Crusader/Image-Protector) |
-| [infinite-monkeys](https://github.com/Codex-Crusader/infinite-monkeys) | ⭐ 3 | Highly optimized Python simulator that demonstrates the Infi... [read more](https://github.com/Codex-Crusader/infinite-monkeys) |
-| [Quantum-Neural-Horror](https://github.com/Codex-Crusader/Quantum-Neural-Horror) | ⭐ 2 | Quantum Neural Horror is an interactive neuro-evolution sand... [read more](https://github.com/Codex-Crusader/Quantum-Neural-Horror) |
-| [coding-war-crimes](https://github.com/Codex-Crusader/coding-war-crimes) | ⭐ 3 | An educational repository documenting intentionally bad code... [read more](https://github.com/Codex-Crusader/coding-war-crimes) |
-| [meme-web](https://github.com/Codex-Crusader/meme-web) | ⭐ 2 | Meme-Web is an automated website that fetches and displays 5... [read more](https://github.com/Codex-Crusader/meme-web) |
-| [Random_Github_Repo_Finder](https://github.com/Codex-Crusader/Random_Github_Repo_Finder) | ⭐ 6 | A Python desktop app with a modern light/dark UI that opens ... [read more](https://github.com/Codex-Crusader/Random_Github_Repo_Finder) |
-| [azlite_type_chess_bot](https://github.com/Codex-Crusader/azlite_type_chess_bot) | ⭐ 5 | AlphaZero-inspired chess engine in Python combining Monte Ca... [read more](https://github.com/Codex-Crusader/azlite_type_chess_bot) |
-| [digital-footprint-cleaner](https://github.com/Codex-Crusader/digital-footprint-cleaner) | ⭐ 12 | A privacy-first web app that helps users locate and erase th... [read more](https://github.com/Codex-Crusader/digital-footprint-cleaner) |
+| [Stack-Sight](https://github.com/Codex-Crusader/Stack-Sight) | ⭐ 1 | Your browser, finally organised. A local-only Chrome extension that groups sites... [read more](https://github.com/Codex-Crusader/Stack-Sight) |
+| [Uni-basketball-ETL-pipeline](https://github.com/Codex-Crusader/Uni-basketball-ETL-pipeline) | ⭐ 2 | Self-improving NCAA basketball predictor - auto-fetches ESPN data, trains 6 mode... [read more](https://github.com/Codex-Crusader/Uni-basketball-ETL-pipeline) |
+| [Image-Protector](https://github.com/Codex-Crusader/Image-Protector) | ⭐ 3 | A small Python tool to obfuscate images against automated scraping and basic ML ... [read more](https://github.com/Codex-Crusader/Image-Protector) |
+| [infinite-monkeys](https://github.com/Codex-Crusader/infinite-monkeys) | ⭐ 3 | Highly optimized Python simulator that demonstrates the Infinite Monkey Theorem ... [read more](https://github.com/Codex-Crusader/infinite-monkeys) |
+| [Quantum-Neural-Horror](https://github.com/Codex-Crusader/Quantum-Neural-Horror) | ⭐ 2 | Quantum Neural Horror is an interactive neuro-evolution sandbox where a neural n... [read more](https://github.com/Codex-Crusader/Quantum-Neural-Horror) |
+| [coding-war-crimes](https://github.com/Codex-Crusader/coding-war-crimes) | ⭐ 3 | An educational repository documenting intentionally bad code written on purpose ... [read more](https://github.com/Codex-Crusader/coding-war-crimes) |
+| [meme-web](https://github.com/Codex-Crusader/meme-web) | ⭐ 2 | Meme-Web is an automated website that fetches and displays 5 fresh memes daily u... [read more](https://github.com/Codex-Crusader/meme-web) |
+| [Random_Github_Repo_Finder](https://github.com/Codex-Crusader/Random_Github_Repo_Finder) | ⭐ 6 | A Python desktop app with a modern light/dark UI that opens random GitHub reposi... [read more](https://github.com/Codex-Crusader/Random_Github_Repo_Finder) |
+| [azlite_type_chess_bot](https://github.com/Codex-Crusader/azlite_type_chess_bot) | ⭐ 5 | AlphaZero-inspired chess engine in Python combining Monte Carlo Tree Search with... [read more](https://github.com/Codex-Crusader/azlite_type_chess_bot) |
+| [digital-footprint-cleaner](https://github.com/Codex-Crusader/digital-footprint-cleaner) | ⭐ 12 | A privacy-first web app that helps users locate and erase their digital footprin... [read more](https://github.com/Codex-Crusader/digital-footprint-cleaner) |
 <!-- REPOS_END -->
 
 ---
