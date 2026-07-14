@@ -50,6 +50,7 @@ Stack: `Python` · `yfinance` · `VADER + custom financial lexicon` · `Streamli
 <!-- REPOS_START -->
 | Repository | Stars | Description |
 |------------|-------|-------------|
+| [Correlation-engine](https://github.com/Codex-Crusader/Correlation-engine) | ⭐ 0 | — |
 | [Stack-Sight](https://github.com/Codex-Crusader/Stack-Sight) | ⭐ 1 | Your browser, finally organised. A local-only Chrome extension that groups sites... [read more](https://github.com/Codex-Crusader/Stack-Sight) |
 | [Uni-basketball-ETL-pipeline](https://github.com/Codex-Crusader/Uni-basketball-ETL-pipeline) | ⭐ 2 | Self-improving NCAA basketball predictor - auto-fetches ESPN data, trains 6 mode... [read more](https://github.com/Codex-Crusader/Uni-basketball-ETL-pipeline) |
 | [Image-Protector](https://github.com/Codex-Crusader/Image-Protector) | ⭐ 3 | A small Python tool to obfuscate images against automated scraping and basic ML ... [read more](https://github.com/Codex-Crusader/Image-Protector) |
