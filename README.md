@@ -71,7 +71,7 @@ Stack: `Python` · `yfinance` · `VADER + custom financial lexicon` · `Streamli
   <img src="https://skillicons.dev/icons?i=python,flask,sklearn,git,github,linux,bash,html,css" />
 </p>
 
-**Comfortable with:** Machine Learning (Decision Tree, Naïve Bayes, k-NN, ensemble methods) · Sentiment Analysis · REST APIs · Multiprocessing · MCTS · Snowflake · Railway deployment · Generative AI tooling
+**Comfortable with:** Machine Learning, Cybersecurity basics, Data Analysis, Python, JavaScript basics, CSS basics
 
 <img src="https://capsule-render.vercel.app/api?type=soft&color=9D5CFF&height=3&section=header" width="100%"/>
 
