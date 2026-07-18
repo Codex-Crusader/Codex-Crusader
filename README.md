@@ -60,7 +60,7 @@ Stack: `Python` · `yfinance` · `VADER + custom financial lexicon` · `Streamli
 | [meme-web](https://github.com/Codex-Crusader/meme-web) | ⭐ 2 | Meme-Web is an automated website that fetches and displays 5 fresh memes daily u... [read more](https://github.com/Codex-Crusader/meme-web) |
 | [Random_Github_Repo_Finder](https://github.com/Codex-Crusader/Random_Github_Repo_Finder) | ⭐ 6 | A Python desktop app with a modern light/dark UI that opens random GitHub reposi... [read more](https://github.com/Codex-Crusader/Random_Github_Repo_Finder) |
 | [azlite_type_chess_bot](https://github.com/Codex-Crusader/azlite_type_chess_bot) | ⭐ 5 | AlphaZero-inspired chess engine in Python combining Monte Carlo Tree Search with... [read more](https://github.com/Codex-Crusader/azlite_type_chess_bot) |
-| [digital-footprint-cleaner](https://github.com/Codex-Crusader/digital-footprint-cleaner) | ⭐ 12 | A privacy-first web app that helps users locate and erase their digital footprin... [read more](https://github.com/Codex-Crusader/digital-footprint-cleaner) |
+| [digital-footprint-cleaner](https://github.com/Codex-Crusader/digital-footprint-cleaner) | ⭐ 13 | A privacy-first web app that helps users locate and erase their digital footprin... [read more](https://github.com/Codex-Crusader/digital-footprint-cleaner) |
 <!-- REPOS_END -->
 
 <img src="https://capsule-render.vercel.app/api?type=soft&color=9D5CFF&height=3&section=header" width="100%"/>
