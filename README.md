@@ -50,7 +50,7 @@ Stack: `Python` · `yfinance` · `VADER + custom financial lexicon` · `Streamli
 <!-- REPOS_START -->
 | Repository | Stars | Description |
 |------------|-------|-------------|
-| [Codex-Crusader.github.io](https://github.com/Codex-Crusader/Codex-Crusader.github.io) | ⭐ 0 | Personal portfolio rendered as a hand-drawn fantasy map (the realm of Orvia). St... [read more](https://github.com/Codex-Crusader/Codex-Crusader.github.io) |
+| [Codex-Crusader.github.io](https://github.com/Codex-Crusader/Codex-Crusader.github.io) | ⭐ 1 | Personal portfolio rendered as a hand-drawn fantasy map (the realm of Orvia). St... [read more](https://github.com/Codex-Crusader/Codex-Crusader.github.io) |
 | [Correlation-engine](https://github.com/Codex-Crusader/Correlation-engine) | ⭐ 1 | A daily correlation scan across news, markets, and government data that shows it... [read more](https://github.com/Codex-Crusader/Correlation-engine) |
 | [Stack-Sight](https://github.com/Codex-Crusader/Stack-Sight) | ⭐ 1 | Your browser, finally organised. A local-only Chrome extension that groups sites... [read more](https://github.com/Codex-Crusader/Stack-Sight) |
 | [Uni-basketball-ETL-pipeline](https://github.com/Codex-Crusader/Uni-basketball-ETL-pipeline) | ⭐ 2 | Self-improving NCAA basketball predictor - auto-fetches ESPN data, trains 6 mode... [read more](https://github.com/Codex-Crusader/Uni-basketball-ETL-pipeline) |
