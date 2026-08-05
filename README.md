@@ -50,6 +50,7 @@ Stack: `Python` · `yfinance` · `VADER + custom financial lexicon` · `Streamli
 <!-- REPOS_START -->
 | Repository | Stars | Description |
 |------------|-------|-------------|
+| [visitor-access-project](https://github.com/Codex-Crusader/visitor-access-project) | ⭐ 1 | A UX research study of campus visitor entry at Vijaybhoomi University. A visitin... [read more](https://github.com/Codex-Crusader/visitor-access-project) |
 | [Codex-Crusader.github.io](https://github.com/Codex-Crusader/Codex-Crusader.github.io) | ⭐ 1 | Personal portfolio rendered as a hand-drawn fantasy map (the realm of Orvia). St... [read more](https://github.com/Codex-Crusader/Codex-Crusader.github.io) |
 | [Correlation-engine](https://github.com/Codex-Crusader/Correlation-engine) | ⭐ 1 | A daily correlation scan across news, markets, and government data that shows it... [read more](https://github.com/Codex-Crusader/Correlation-engine) |
 | [Stack-Sight](https://github.com/Codex-Crusader/Stack-Sight) | ⭐ 1 | Your browser, finally organised. A local-only Chrome extension that groups sites... [read more](https://github.com/Codex-Crusader/Stack-Sight) |
