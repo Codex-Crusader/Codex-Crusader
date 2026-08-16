@@ -50,7 +50,7 @@ Stack: `Python` · `yfinance` · `VADER + custom financial lexicon` · `Streamli
 <!-- REPOS_START -->
 | Repository | Stars | Description |
 |------------|-------|-------------|
-| [bruhswer-the-homebrew-pseudo-browser](https://github.com/Codex-Crusader/bruhswer-the-homebrew-pseudo-browser) | ⭐ 4 | A homebrew pseudo-browser for Windows. Hardened Microsoft Edge with fail-closed ... [read more](https://github.com/Codex-Crusader/bruhswer-the-homebrew-pseudo-browser) |
+| [bruhswer-the-homebrew-pseudo-browser](https://github.com/Codex-Crusader/bruhswer-the-homebrew-pseudo-browser) | ⭐ 5 | A homebrew pseudo-browser for Windows. Hardened Microsoft Edge with fail-closed ... [read more](https://github.com/Codex-Crusader/bruhswer-the-homebrew-pseudo-browser) |
 | [visitor-access-project](https://github.com/Codex-Crusader/visitor-access-project) | ⭐ 1 | A UX research study of campus visitor entry at Vijaybhoomi University. A visitin... [read more](https://github.com/Codex-Crusader/visitor-access-project) |
 | [Codex-Crusader.github.io](https://github.com/Codex-Crusader/Codex-Crusader.github.io) | ⭐ 1 | Personal portfolio rendered as a hand-drawn fantasy map (the realm of Orvia). St... [read more](https://github.com/Codex-Crusader/Codex-Crusader.github.io) |
 | [Correlation-engine](https://github.com/Codex-Crusader/Correlation-engine) | ⭐ 1 | A daily correlation scan across news, markets, and government data that shows it... [read more](https://github.com/Codex-Crusader/Correlation-engine) |
