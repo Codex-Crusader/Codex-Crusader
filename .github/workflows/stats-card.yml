@@ -8,7 +8,7 @@ on:
   push:
     branches: [main]
     paths:
-      - "scripts/generate_card.py"
+      - ".github/scripts/generate_card.py"
       - ".github/workflows/stats-card.yml"
 
 permissions:
@@ -30,7 +30,7 @@ jobs:
           # workflow token, which may under-report private contributions.
           GH_TOKEN: ${{ secrets.STATS_TOKEN || github.token }}
           GH_USER: ${{ github.repository_owner }}
-        run: python scripts/generate_card.py
+        run: python .github/scripts/generate_card.py
 
       - name: Commit if changed
         run: |
