@@ -23,9 +23,10 @@ def fetch_all_repos():
     return repos
 
 def build_table(repos):
-    # Filter out forks, sort by creation date descending
+    # Filter out forks, keep top 5 by stars (ties broken by newest)
     owned = [r for r in repos if not r["fork"] and r["name"].lower() != USERNAME.lower()]
-    owned.sort(key=lambda r: r["created_at"], reverse=True)
+    owned.sort(key=lambda r: (r["stargazers_count"], r["created_at"]), reverse=True)
+    owned = owned[:5]
 
     lines = [
         "| Repository | Stars | Description |",

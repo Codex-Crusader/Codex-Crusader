@@ -6,7 +6,7 @@
 [![CommitCrimes](https://commitcrimes.dev/badge/Codex-Crusader.svg)](https://commitcrimes.dev/u/Codex-Crusader)
 [![Roast My Code](https://img.shields.io/badge/Roast_My_Code-View_Roast-red?style=for-the-badge&logo=github)](https://roastmycode.ai/Codex-Crusader)
 
-**`Builder · Open-Source · AI/ML`** &nbsp;·&nbsp; he/him &nbsp;·&nbsp; Vijaybhoomi University, CSE '27
+**`Builder · Open-Source · AI/ML`** &nbsp;·&nbsp; he/him &nbsp;·&nbsp; Vijaybhoomi University, CSE '28
 
 <div align="center">
 
@@ -50,20 +50,11 @@ Stack: `Python` · `yfinance` · `VADER + custom financial lexicon` · `Streamli
 <!-- REPOS_START -->
 | Repository | Stars | Description |
 |------------|-------|-------------|
+| [digital-footprint-cleaner](https://github.com/Codex-Crusader/digital-footprint-cleaner) | ⭐ 13 | A privacy-first web app that helps users locate and erase their digital footprin... [read more](https://github.com/Codex-Crusader/digital-footprint-cleaner) |
 | [bruhswer-the-homebrew-pseudo-browser](https://github.com/Codex-Crusader/bruhswer-the-homebrew-pseudo-browser) | ⭐ 6 | A homebrew pseudo-browser for Windows. Hardened Microsoft Edge with fail-closed ... [read more](https://github.com/Codex-Crusader/bruhswer-the-homebrew-pseudo-browser) |
-| [visitor-access-project](https://github.com/Codex-Crusader/visitor-access-project) | ⭐ 1 | A UX research study of campus visitor entry at Vijaybhoomi University. A visitin... [read more](https://github.com/Codex-Crusader/visitor-access-project) |
-| [Codex-Crusader.github.io](https://github.com/Codex-Crusader/Codex-Crusader.github.io) | ⭐ 1 | Personal portfolio rendered as a hand-drawn fantasy map (the realm of Orvia). St... [read more](https://github.com/Codex-Crusader/Codex-Crusader.github.io) |
-| [Correlation-engine](https://github.com/Codex-Crusader/Correlation-engine) | ⭐ 1 | A daily correlation scan across news, markets, and government data that shows it... [read more](https://github.com/Codex-Crusader/Correlation-engine) |
-| [Stack-Sight](https://github.com/Codex-Crusader/Stack-Sight) | ⭐ 1 | Your browser, finally organised. A local-only Chrome extension that groups sites... [read more](https://github.com/Codex-Crusader/Stack-Sight) |
-| [Uni-basketball-ETL-pipeline](https://github.com/Codex-Crusader/Uni-basketball-ETL-pipeline) | ⭐ 2 | Self-improving NCAA basketball predictor - auto-fetches ESPN data, trains 6 mode... [read more](https://github.com/Codex-Crusader/Uni-basketball-ETL-pipeline) |
-| [Image-Protector](https://github.com/Codex-Crusader/Image-Protector) | ⭐ 3 | A small Python tool to obfuscate images against automated scraping and basic ML ... [read more](https://github.com/Codex-Crusader/Image-Protector) |
-| [infinite-monkeys](https://github.com/Codex-Crusader/infinite-monkeys) | ⭐ 3 | The infinite monkey theorem run rather than quoted: a process per core hammering... [read more](https://github.com/Codex-Crusader/infinite-monkeys) |
-| [Quantum-Neural-Horror](https://github.com/Codex-Crusader/Quantum-Neural-Horror) | ⭐ 2 | Quantum Neural Horror is an interactive neuro-evolution sandbox where a neural n... [read more](https://github.com/Codex-Crusader/Quantum-Neural-Horror) |
-| [coding-war-crimes](https://github.com/Codex-Crusader/coding-war-crimes) | ⭐ 3 | Deliberately terrible code, written on purpose and annotated with what it costs.... [read more](https://github.com/Codex-Crusader/coding-war-crimes) |
-| [meme-web](https://github.com/Codex-Crusader/meme-web) | ⭐ 2 | A meme gallery that refills itself. A GitHub Actions cron pulls five fresh image... [read more](https://github.com/Codex-Crusader/meme-web) |
 | [Random_Github_Repo_Finder](https://github.com/Codex-Crusader/Random_Github_Repo_Finder) | ⭐ 6 | A desktop app that opens a random public repository, or a random good first issu... [read more](https://github.com/Codex-Crusader/Random_Github_Repo_Finder) |
 | [azlite_type_chess_bot](https://github.com/Codex-Crusader/azlite_type_chess_bot) | ⭐ 5 | An AlphaZero-style chess engine in Python: PUCT tree search guided by a policy a... [read more](https://github.com/Codex-Crusader/azlite_type_chess_bot) |
-| [digital-footprint-cleaner](https://github.com/Codex-Crusader/digital-footprint-cleaner) | ⭐ 13 | A privacy-first web app that helps users locate and erase their digital footprin... [read more](https://github.com/Codex-Crusader/digital-footprint-cleaner) |
+| [Image-Protector](https://github.com/Codex-Crusader/Image-Protector) | ⭐ 3 | A small Python tool to obfuscate images against automated scraping and basic ML ... [read more](https://github.com/Codex-Crusader/Image-Protector) |
 <!-- REPOS_END -->
 
 <img src="https://capsule-render.vercel.app/api?type=soft&color=9D5CFF&height=3&section=header" width="100%"/>
@@ -74,7 +65,7 @@ Stack: `Python` · `yfinance` · `VADER + custom financial lexicon` · `Streamli
   <img src="https://skillicons.dev/icons?i=python,flask,sklearn,git,github,linux,bash,html,css" />
 </p>
 
-**Comfortable with:** Machine Learning, Cybersecurity basics, Data Analysis, Python, JavaScript basics, CSS basics
+**Comfortable with:** Machine Learning, Data Analysis, Python, React/Next.js, Cybersecurity basics
 
 <img src="https://capsule-render.vercel.app/api?type=soft&color=9D5CFF&height=3&section=header" width="100%"/>
 
