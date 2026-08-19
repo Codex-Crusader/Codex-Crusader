@@ -57,6 +57,8 @@ Stack: `Python` · `yfinance` · `VADER + custom financial lexicon` · `Streamli
 | [Image-Protector](https://github.com/Codex-Crusader/Image-Protector) | ⭐ 3 | A small Python tool to obfuscate images against automated scraping and basic ML ... [read more](https://github.com/Codex-Crusader/Image-Protector) |
 <!-- REPOS_END -->
 
+Take a look at rest of my projects [HERE](https://github.com/Codex-Crusader?tab=repositories&q=&type=&language=&sort=stargazers)
+
 <img src="https://capsule-render.vercel.app/api?type=soft&color=9D5CFF&height=3&section=header" width="100%"/>
 
 ## Tech Stack
@@ -86,7 +88,7 @@ Stack: `Python` · `yfinance` · `VADER + custom financial lexicon` · `Streamli
 ## Beyond code
 
 - 🏃 **Co-Head, Kanyathon** (Mumbai Division) - women-focused charity marathon; managed 30 volunteers, 100+ CSR cold outreaches, full sponsorship pipeline
-- 🎙️ Working on a podcast exploring AI's impact on Indian CS students — focused on the tensions, not the hype
+- 🎙️ Working on a podcast exploring AI's impact on Indian CS students - focused on the tensions, not the hype
 - 💼 Freelancing on Fiverr and privately - data analytics, startup grunt work, and whatever interesting problems people need solved
 - 🔧 Somewhere in the open-source world, making small things slightly less broken
 
