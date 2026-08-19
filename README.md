@@ -81,9 +81,7 @@ Stack: `Python` · `yfinance` · `VADER + custom financial lexicon` · `Streamli
 ## GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=Codex-Crusader&show_icons=true&theme=tokyonight&hide_border=true" height="170"/>
-  <img src="https://streak-stats.demolab.com?user=Codex-Crusader&theme=tokyonight&hide_border=true" height="170"/>
-  <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=Codex-Crusader&layout=compact&theme=tokyonight&hide_border=true"/>
+  <img src="./assets/stats.svg" alt="GitHub stats" width="100%"/>
 </p>
 
 <br/>
