@@ -48,13 +48,13 @@ Stack: `Python` · `yfinance` · `VADER + custom financial lexicon` · `Streamli
 ## Projects
 
 <!-- REPOS_START -->
-| Repository | Stars | Description |
-|------------|-------|-------------|
-| [digital-footprint-cleaner](https://github.com/Codex-Crusader/digital-footprint-cleaner) | ⭐ 13 | A privacy-first web app that helps users locate and erase their digital footprin... [read more](https://github.com/Codex-Crusader/digital-footprint-cleaner) |
-| [bruhswer-the-homebrew-pseudo-browser](https://github.com/Codex-Crusader/bruhswer-the-homebrew-pseudo-browser) | ⭐ 6 | A homebrew pseudo-browser for Windows. Hardened Microsoft Edge with fail-closed ... [read more](https://github.com/Codex-Crusader/bruhswer-the-homebrew-pseudo-browser) |
-| [Random_Github_Repo_Finder](https://github.com/Codex-Crusader/Random_Github_Repo_Finder) | ⭐ 6 | A desktop app that opens a random public repository, or a random good first issu... [read more](https://github.com/Codex-Crusader/Random_Github_Repo_Finder) |
-| [azlite_type_chess_bot](https://github.com/Codex-Crusader/azlite_type_chess_bot) | ⭐ 5 | An AlphaZero-style chess engine in Python: PUCT tree search guided by a policy a... [read more](https://github.com/Codex-Crusader/azlite_type_chess_bot) |
-| [Image-Protector](https://github.com/Codex-Crusader/Image-Protector) | ⭐ 3 | A small Python tool to obfuscate images against automated scraping and basic ML ... [read more](https://github.com/Codex-Crusader/Image-Protector) |
+| Repository | Last Commit | Description |
+|------------|-------------|-------------|
+| [Correlation-engine](https://github.com/Codex-Crusader/Correlation-engine) | 2026-08-22 | A daily correlation scan across news, markets, and government data that shows it... [read more](https://github.com/Codex-Crusader/Correlation-engine) |
+| [bruhswer-the-homebrew-pseudo-browser](https://github.com/Codex-Crusader/bruhswer-the-homebrew-pseudo-browser) | 2026-08-15 | A homebrew pseudo-browser for Windows. Hardened Microsoft Edge with fail-closed ... [read more](https://github.com/Codex-Crusader/bruhswer-the-homebrew-pseudo-browser) |
+| [digital-footprint-cleaner](https://github.com/Codex-Crusader/digital-footprint-cleaner) | 2026-08-08 | A privacy-first web app that helps users locate and erase their digital footprin... [read more](https://github.com/Codex-Crusader/digital-footprint-cleaner) |
+| [Stack-Sight](https://github.com/Codex-Crusader/Stack-Sight) | 2026-08-06 | Your browser, finally organised. A local-only Chrome extension that groups sites... [read more](https://github.com/Codex-Crusader/Stack-Sight) |
+| [Codex-Crusader.github.io](https://github.com/Codex-Crusader/Codex-Crusader.github.io) | 2026-08-05 | Personal portfolio rendered as a hand-drawn fantasy map (the realm of Orvia). St... [read more](https://github.com/Codex-Crusader/Codex-Crusader.github.io) |
 <!-- REPOS_END -->
 
 Take a look at rest of my projects [HERE](https://github.com/Codex-Crusader?tab=repositories&q=&type=&language=&sort=stargazers)
