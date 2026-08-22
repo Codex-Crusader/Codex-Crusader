@@ -23,30 +23,30 @@ def fetch_all_repos():
     return repos
 
 def build_table(repos):
-    # Filter out forks, keep top 5 by stars (ties broken by newest)
+    # Filter out forks, keep the 5 most recently committed to (by last push)
     owned = [r for r in repos if not r["fork"] and r["name"].lower() != USERNAME.lower()]
-    owned.sort(key=lambda r: (r["stargazers_count"], r["created_at"]), reverse=True)
+    owned.sort(key=lambda r: r["pushed_at"], reverse=True)
     owned = owned[:5]
 
     lines = [
-        "| Repository | Stars | Description |",
-        "|------------|-------|-------------|"
+        "| Repository | Last Commit | Description |",
+        "|------------|-------------|-------------|"
     ]
     for r in owned:
         name = f"[{r['name']}](https://github.com/{USERNAME}/{r['name']})"
-        stars = f"⭐ {r['stargazers_count']}"
+        last_commit = r["pushed_at"].split("T")[0]
         raw_desc = (r["description"] or "—").replace("|", "\\|")
         repo_url = f"https://github.com/{USERNAME}/{r['name']}"
         if len(raw_desc) > 80:
             desc = f"{raw_desc[:80]}... [read more]({repo_url})"
         else:
             desc = raw_desc
-        lines.append(f"| {name} | {stars} | {desc} |")
+        lines.append(f"| {name} | {last_commit} | {desc} |")
 
     return "\n".join(lines)
 
 def update_readme(table):
-    with open("README.md", "r") as f:
+    with open("README.md", "r", encoding="utf-8") as f:
         content = f.read()
 
     start = "<!-- REPOS_START -->"
@@ -60,7 +60,7 @@ def update_readme(table):
     before = content.split(start)[0]
     after = content.split(end)[1]
 
-    with open("README.md", "w") as f:
+    with open("README.md", "w", encoding="utf-8") as f:
         f.write(before + new_block + after)
 
     print("README updated.")
