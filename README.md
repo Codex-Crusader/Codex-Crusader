@@ -50,7 +50,7 @@ Stack: `Python` · `yfinance` · `VADER + custom financial lexicon` · `Streamli
 <!-- REPOS_START -->
 | Repository | Last Commit | Description |
 |------------|-------------|-------------|
-| [Correlation-engine](https://github.com/Codex-Crusader/Correlation-engine) | 2026-08-24 | A daily correlation scan across news, markets, and government data that shows it... [read more](https://github.com/Codex-Crusader/Correlation-engine) |
+| [Correlation-engine](https://github.com/Codex-Crusader/Correlation-engine) | 2026-08-25 | A daily correlation scan across news, markets, and government data that shows it... [read more](https://github.com/Codex-Crusader/Correlation-engine) |
 | [Image-Protector](https://github.com/Codex-Crusader/Image-Protector) | 2026-08-22 | A small Python tool to obfuscate images against automated scraping and basic ML ... [read more](https://github.com/Codex-Crusader/Image-Protector) |
 | [bruhswer-the-homebrew-pseudo-browser](https://github.com/Codex-Crusader/bruhswer-the-homebrew-pseudo-browser) | 2026-08-15 | A homebrew pseudo-browser for Windows. Hardened Microsoft Edge with fail-closed ... [read more](https://github.com/Codex-Crusader/bruhswer-the-homebrew-pseudo-browser) |
 | [digital-footprint-cleaner](https://github.com/Codex-Crusader/digital-footprint-cleaner) | 2026-08-08 | A privacy-first web app that helps users locate and erase their digital footprin... [read more](https://github.com/Codex-Crusader/digital-footprint-cleaner) |
