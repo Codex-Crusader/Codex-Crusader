@@ -77,12 +77,6 @@ Take a look at rest of my projects [HERE](https://github.com/Codex-Crusader?tab=
   <img src="./assets/stats.svg" alt="GitHub stats" width="100%"/>
 </p>
 
-<br/>
-
-![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Codex-Crusader&theme=tokyo-night&hide_border=true)
-
-<br/>
-
 <img src="https://capsule-render.vercel.app/api?type=soft&color=9D5CFF&height=3&section=header" width="100%"/>
 
 ## Beyond code
