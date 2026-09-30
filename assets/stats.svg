@@ -8,11 +8,11 @@
     Codex-Crusader
   </text>
   <text x="32" y="66" fill="#6E7396" font-size="12">
-    1044 contributions in the last year
+    1047 contributions in the last year
   </text>
 
   <text x="32" y="110" fill="#6E7396" font-size="13">Commits (last year)</text>
-  <text x="232" y="110" fill="#C0CAF5" font-size="13" font-weight="600" text-anchor="end">801</text>
+  <text x="232" y="110" fill="#C0CAF5" font-size="13" font-weight="600" text-anchor="end">804</text>
   <text x="272" y="110" fill="#6E7396" font-size="13">Stars earned</text>
   <text x="472" y="110" fill="#C0CAF5" font-size="13" font-weight="600" text-anchor="end">55</text>
   <text x="32" y="140" fill="#6E7396" font-size="13">Pull requests</text>
@@ -27,7 +27,7 @@
   <line x1="560" y1="40" x2="560" y2="200" stroke="#6E7396" stroke-opacity="0.3"/>
 
   <text x="690" y="86" fill="#9D5CFF" font-size="42" font-weight="700"
-        text-anchor="middle">0</text>
+        text-anchor="middle">1</text>
   <text x="690" y="106" fill="#6E7396" font-size="12" text-anchor="middle">
     day current streak
   </text>
@@ -39,19 +39,16 @@
   </text>
 
   <rect x="32.0" y="226" width="594.0" height="8" fill="#3572A5"/>
-  <rect x="626.0" y="226" width="54.0" height="8" fill="#F1E05A"/>
-  <rect x="680.0" y="226" width="54.0" height="8" fill="#8B949E"/>
-  <rect x="734.0" y="226" width="54.0" height="8" fill="#E34C26"/>
+  <rect x="626.0" y="226" width="108.0" height="8" fill="#E34C26"/>
+  <rect x="734.0" y="226" width="54.0" height="8" fill="#F1E05A"/>
   <circle cx="36" cy="256" r="4" fill="#3572A5"/>
   <text x="46" y="260" fill="#C0CAF5" font-size="12">Python</text>
-  <circle cx="101.6" cy="256" r="4" fill="#F1E05A"/>
-  <text x="111.6" y="260" fill="#C0CAF5" font-size="12">JavaScript</text>
-  <circle cx="193.6" cy="256" r="4" fill="#8B949E"/>
-  <text x="203.6" y="260" fill="#C0CAF5" font-size="12">Astro</text>
-  <circle cx="252.6" cy="256" r="4" fill="#E34C26"/>
-  <text x="262.6" y="260" fill="#C0CAF5" font-size="12">HTML</text>
+  <circle cx="101.6" cy="256" r="4" fill="#E34C26"/>
+  <text x="111.6" y="260" fill="#C0CAF5" font-size="12">HTML</text>
+  <circle cx="154.0" cy="256" r="4" fill="#F1E05A"/>
+  <text x="164.0" y="260" fill="#C0CAF5" font-size="12">JavaScript</text>
 
   <text x="788" y="290" fill="#6E7396" font-size="10" text-anchor="end">
-    updated 29 Sep 2026
+    updated 30 Sep 2026
   </text>
 </svg>
