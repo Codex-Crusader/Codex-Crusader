@@ -36,7 +36,7 @@ Gets hyper-fixated on problems until they stop existing. This works out about 70
 
 ## What I'm building
 
-**[PulseEngine](https://github.com/The-Pulse-Engine)** - An open-source developer community I co-founded with [@SudoMayo](https://github.com/SudoMayo).
+**[PulseEngine](https://github.com/The-Pulse-Engine)** - An open-source developer community I Founded.
 We build local-first, privacy-respecting tools under the MIT license.
 
 > **First project live:** A [Market Intelligence Platform](https://github.com/The-Pulse-Engine/Pulse-Engine_Market_Intelligence_Platform) tracking **24 assets** and **12 RSS feeds** with composite signal scoring (−10 to +10). Runs entirely locally - no paid APIs, no vendor lock-in.
