@@ -50,8 +50,8 @@ Stack: `Python` · `yfinance` · `VADER + custom financial lexicon` · `Streamli
 <!-- REPOS_START -->
 | Repository | Last Commit | Description |
 |------------|-------------|-------------|
-| [visitor-access-project](https://github.com/Codex-Crusader/visitor-access-project) | 2026-10-07 | A UX research study of campus visitor entry at Vijaybhoomi University. A visitin... [read more](https://github.com/Codex-Crusader/visitor-access-project) |
-| [Rice-sauce-hair](https://github.com/Codex-Crusader/Rice-sauce-hair) | 2026-10-07 | An Arch Linux + Hyprland desktop with a local AI companion: she plans, acts safe... [read more](https://github.com/Codex-Crusader/Rice-sauce-hair) |
+| [visitor-access-project](https://github.com/Codex-Crusader/visitor-access-project) | 2026-10-08 | A UX research study of campus visitor entry at Vijaybhoomi University. A visitin... [read more](https://github.com/Codex-Crusader/visitor-access-project) |
+| [Rice-sauce-hair](https://github.com/Codex-Crusader/Rice-sauce-hair) | 2026-10-08 | An Arch Linux + Hyprland desktop with a local AI companion: she plans, acts safe... [read more](https://github.com/Codex-Crusader/Rice-sauce-hair) |
 | [Codex-Crusader.github.io](https://github.com/Codex-Crusader/Codex-Crusader.github.io) | 2026-10-03 | Personal portfolio rendered as a hand-drawn fantasy map (the realm of Orvia). St... [read more](https://github.com/Codex-Crusader/Codex-Crusader.github.io) |
 | [bruhswer-the-homebrew-pseudo-browser](https://github.com/Codex-Crusader/bruhswer-the-homebrew-pseudo-browser) | 2026-09-25 | A homebrew pseudo-browser for Windows. Hardened Microsoft Edge with fail-closed ... [read more](https://github.com/Codex-Crusader/bruhswer-the-homebrew-pseudo-browser) |
 | [azlite_type_chess_bot](https://github.com/Codex-Crusader/azlite_type_chess_bot) | 2026-08-28 | An AlphaZero-style chess engine in Python: PUCT tree search guided by a policy a... [read more](https://github.com/Codex-Crusader/azlite_type_chess_bot) |
