@@ -50,7 +50,7 @@ Stack: `Python` · `yfinance` · `VADER + custom financial lexicon` · `Streamli
 <!-- REPOS_START -->
 | Repository | Last Commit | Description |
 |------------|-------------|-------------|
-| [whatsapp-task-bot](https://github.com/Codex-Crusader/whatsapp-task-bot) | 2026-10-12 | Read-only WhatsApp task bot for Windows: finds tasks with a local LLM (Ollama), ... [read more](https://github.com/Codex-Crusader/whatsapp-task-bot) |
+| [whatsapp-task-bot](https://github.com/Codex-Crusader/whatsapp-task-bot) | 2026-10-14 | Read-only WhatsApp task bot for Windows: finds tasks with a local LLM (Ollama), ... [read more](https://github.com/Codex-Crusader/whatsapp-task-bot) |
 | [Codex-Crusader.github.io](https://github.com/Codex-Crusader/Codex-Crusader.github.io) | 2026-10-12 | Personal portfolio rendered as a hand-drawn fantasy map (the realm of Orvia). St... [read more](https://github.com/Codex-Crusader/Codex-Crusader.github.io) |
 | [Rice-sauce-hair](https://github.com/Codex-Crusader/Rice-sauce-hair) | 2026-10-08 | An Arch Linux + Hyprland desktop with a local AI companion: she plans, acts safe... [read more](https://github.com/Codex-Crusader/Rice-sauce-hair) |
 | [bruhswer-the-homebrew-pseudo-browser](https://github.com/Codex-Crusader/bruhswer-the-homebrew-pseudo-browser) | 2026-09-25 | A homebrew pseudo-browser for Windows. Hardened Microsoft Edge with fail-closed ... [read more](https://github.com/Codex-Crusader/bruhswer-the-homebrew-pseudo-browser) |
