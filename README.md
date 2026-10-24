@@ -50,11 +50,11 @@ Stack: `Python` · `yfinance` · `VADER + custom financial lexicon` · `Streamli
 <!-- REPOS_START -->
 | Repository | Last Commit | Description |
 |------------|-------------|-------------|
+| [liftpath](https://github.com/Codex-Crusader/liftpath) | 2026-10-23 | Learning path recommender that ranks next study activities by measured lift. Dat... [read more](https://github.com/Codex-Crusader/liftpath) |
 | [Codex-Crusader.github.io](https://github.com/Codex-Crusader/Codex-Crusader.github.io) | 2026-10-22 | Personal portfolio rendered as a hand-drawn fantasy map (the realm of Orvia). St... [read more](https://github.com/Codex-Crusader/Codex-Crusader.github.io) |
 | [t-rustable](https://github.com/Codex-Crusader/t-rustable) | 2026-10-21 | Offline, mod-first PDF editor for Linux and Windows. Source-available, free for ... [read more](https://github.com/Codex-Crusader/t-rustable) |
 | [whatsapp-task-bot](https://github.com/Codex-Crusader/whatsapp-task-bot) | 2026-10-14 | Read-only WhatsApp task bot for Windows: finds tasks with a local LLM (Ollama), ... [read more](https://github.com/Codex-Crusader/whatsapp-task-bot) |
 | [Rice-sauce-hair](https://github.com/Codex-Crusader/Rice-sauce-hair) | 2026-10-08 | An Arch Linux + Hyprland desktop with a local AI companion: she plans, acts safe... [read more](https://github.com/Codex-Crusader/Rice-sauce-hair) |
-| [bruhswer-the-homebrew-pseudo-browser](https://github.com/Codex-Crusader/bruhswer-the-homebrew-pseudo-browser) | 2026-09-25 | A homebrew pseudo-browser for Windows. Hardened Microsoft Edge with fail-closed ... [read more](https://github.com/Codex-Crusader/bruhswer-the-homebrew-pseudo-browser) |
 <!-- REPOS_END -->
 
 Take a look at rest of my projects [HERE](https://github.com/Codex-Crusader?tab=repositories&q=&type=&language=&sort=stargazers)
