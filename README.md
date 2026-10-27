@@ -8,6 +8,8 @@
 
 **`Builder · Open-Source · AI/ML`** &nbsp;·&nbsp; he/him &nbsp;·&nbsp; Vijaybhoomi University, CSE '28
 
+**Portfolio and blog:** [codex-crusader.github.io](https://codex-crusader.github.io/), with write-ups on machine learning, local-first software and security.
+
 <div align="center">
 
 ![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=18&duration=2500&pause=600&color=9D5CFF&center=true&vCenter=true&width=620&lines=Co-founder+%40+PulseEngine;i+wrote+this+at+2am+please+go+to+sleep;AI%2FML+%7C+Python+%7C+Open-Source;the+code+works%2C+don%27t+ask+why;Building+things+that+shouldn%27t+work+but+do;git+push+--force+%28don%27t+do+this%29;Market+Intelligence+%7C+No+paid+APIs%2C+just+signal;currently+being+humbled+by+a+compiler;bro+you%27re+still+reading+this%3F;yes+i+named+a+repo+coding-war-crimes;touch+grass+challenge+%3A+failed;AAAAAAAAAAAH%21%21)
