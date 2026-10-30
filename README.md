@@ -52,8 +52,8 @@ Stack: `Python` · `yfinance` · `VADER + custom financial lexicon` · `Streamli
 <!-- REPOS_START -->
 | Repository | Last Commit | Description |
 |------------|-------------|-------------|
+| [Codex-Crusader.github.io](https://github.com/Codex-Crusader/Codex-Crusader.github.io) | 2026-10-29 | Personal portfolio rendered as a hand-drawn fantasy map (the realm of Orvia). St... [read more](https://github.com/Codex-Crusader/Codex-Crusader.github.io) |
 | [Rice-sauce-hair](https://github.com/Codex-Crusader/Rice-sauce-hair) | 2026-10-28 | An Arch Linux + Hyprland desktop with a local AI companion: she plans, acts safe... [read more](https://github.com/Codex-Crusader/Rice-sauce-hair) |
-| [Codex-Crusader.github.io](https://github.com/Codex-Crusader/Codex-Crusader.github.io) | 2026-10-27 | Personal portfolio rendered as a hand-drawn fantasy map (the realm of Orvia). St... [read more](https://github.com/Codex-Crusader/Codex-Crusader.github.io) |
 | [t-rustable](https://github.com/Codex-Crusader/t-rustable) | 2026-10-27 | Offline, mod-first PDF editor for Linux and Windows. Source-available, free for ... [read more](https://github.com/Codex-Crusader/t-rustable) |
 | [digital-footprint-cleaner](https://github.com/Codex-Crusader/digital-footprint-cleaner) | 2026-10-27 | A privacy-first web app that helps you find and erase your digital footprint acr... [read more](https://github.com/Codex-Crusader/digital-footprint-cleaner) |
 | [coding-war-crimes](https://github.com/Codex-Crusader/coding-war-crimes) | 2026-10-27 | Deliberately terrible code, written on purpose and annotated with what it costs.... [read more](https://github.com/Codex-Crusader/coding-war-crimes) |
