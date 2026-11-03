@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="820" height="280"
      viewBox="0 0 820 280" font-family="-apple-system, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" role="img"
-     aria-label="Boss fight: The Off-by-One Ogre has 80 of 80 HP. Bugs felled: 0.">
+     aria-label="Boss fight: The Off-by-One Ogre has 68 of 80 HP. Bugs felled: 0.">
   <rect width="820" height="280" rx="12" fill="#0A0806"/>
   <rect x="8" y="8" width="804" height="264" rx="8" fill="#15100B" stroke="#3B2E1E"/>
   <rect x="14" y="14" width="792" height="252" rx="6" fill="none" stroke="#E8662C" stroke-opacity="0.35"/>
@@ -27,17 +27,17 @@
   <text x="220" y="84" fill="#BCAC8D" font-family="Georgia, 'Times New Roman', serif" font-size="13" font-style="italic">who guards every loop boundary</text>
 
   <rect x="220" y="104" width="300" height="12" rx="2" fill="#3B2E1E"/>
-  <rect x="220" y="104" width="300.0" height="12" rx="2" fill="#E8662C"/>
-  <text x="220" y="136" fill="#EFE4CC" font-size="13">80 / 80 HP</text>
+  <rect x="220" y="104" width="255.0" height="12" rx="2" fill="#E8662C"/>
+  <text x="220" y="136" fill="#EFE4CC" font-size="13">68 / 80 HP</text>
 
   <text x="220" y="172" fill="#BCAC8D" font-size="12">Bugs felled: <tspan fill="#F3D48E" font-weight="700">0</tspan></text>
   <text x="220" y="196" fill="#BCAC8D" font-size="12">No bug has fallen yet.</text>
 
   <line x1="558" y1="36" x2="558" y2="244" stroke="#D6A553" stroke-opacity="0.2"/>
   <text x="578" y="54" fill="#D6A553" font-family="Georgia, 'Times New Roman', serif" font-size="12" letter-spacing="2">LAST BLOWS</text>
-  <text x="578" y="78" fill="#BCAC8D" font-size="13" font-style="italic">No one has struck yet.</text>
+  <text x="578" y="78" fill="#EFE4CC" font-size="13">@Codex-Crusader <tspan fill="#E8662C">-12</tspan></text>
   <text x="578" y="184" fill="#D6A553" font-family="Georgia, 'Times New Roman', serif" font-size="12" letter-spacing="2">TOP DAMAGE</text>
-  <text x="578" y="206" fill="#BCAC8D" font-size="13" font-style="italic">none yet</text>
+  <text x="578" y="206" fill="#EFE4CC" font-size="13">@Codex-Crusader <tspan fill="#F3D48E">12</tspan></text>
 
   <text x="220" y="250" fill="#BCAC8D" fill-opacity="0.7" font-size="10">one issue, one swing · 5 minute stamina cooldown</text>
 </svg>
