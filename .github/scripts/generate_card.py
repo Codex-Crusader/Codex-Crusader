@@ -285,7 +285,7 @@ def render(stats, now=None):
     {escape(stats['login'])}
   </text>
   <text x="36" y="72" fill="{MUTED}" font-family="{SERIF}" font-size="13" font-style="italic">
-    Codemancer of Orvia · Vijaybhoomi University · CSE '28
+    Vijaybhoomi University · CSE '28
   </text>
 
   <text x="530" y="52" fill="{GOLD}" font-family="{SERIF}" font-size="13" letter-spacing="2" text-anchor="end">LEVEL</text>

@@ -1,4 +1,4 @@
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0A0806,60:3B2410,100:D6A553&height=170&section=header&text=Bhargavaram%20Krishnapur&fontSize=44&fontColor=F3D48E&fontAlignY=38&desc=Codemancer%20of%20Orvia&descAlignY=58&descSize=16" width="100%" alt="Bhargavaram Krishnapur, Codemancer of Orvia"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0A0806,60:3B2410,100:D6A553&height=170&section=header&text=Bhargavaram%20Krishnapur&fontSize=44&fontColor=F3D48E&fontAlignY=45" width="100%" alt="Bhargavaram Krishnapur"/>
 
 <div align="center">
 
