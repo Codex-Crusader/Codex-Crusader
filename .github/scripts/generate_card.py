@@ -1,25 +1,33 @@
 #!/usr/bin/env python3
 """
-Generate a GitHub stats SVG card from the GitHub GraphQL API.
+Generate the profile character sheet SVG from the GitHub GraphQL API.
 
-Reads GH_TOKEN and GH_USER from the environment, writes assets/stats.svg.
+Reads GH_TOKEN and GH_USER from the environment, writes assets/character.svg.
 No external dependencies; standard library only.
 """
 
 import json
+import math
 import os
 import sys
 import urllib.request
-from datetime import datetime
+from datetime import datetime, timezone
 
 API_URL = "https://api.github.com/graphql"
-OUTPUT_PATH = "assets/stats.svg"
+OUTPUT_PATH = "assets/character.svg"
 
-# Matches the purple used by the capsule-render banners in the README.
-ACCENT = "#9D5CFF"
-BACKGROUND = "#1A1B27"
-TEXT = "#C0CAF5"
-MUTED = "#6E7396"
+# The Orvia palette, shared with codex-crusader.github.io.
+INK = "#0A0806"
+PLATE = "#15100B"
+GOLD = "#D6A553"
+GOLD_HI = "#F3D48E"
+EMBER = "#E8662C"
+TEXT = "#EFE4CC"
+MUTED = "#BCAC8D"
+LINE = "#3B2E1E"
+
+SERIF = "Georgia, 'Times New Roman', serif"
+SANS = "-apple-system, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif"
 
 LANGUAGE_COLORS = {
     "Python": "#3572A5",
@@ -28,11 +36,11 @@ LANGUAGE_COLORS = {
     "HTML": "#E34C26",
     "CSS": "#663399",
     "Shell": "#89E051",
+    "Rust": "#DEA584",
+    "Svelte": "#FF3E00",
     "C": "#555555",
     "C++": "#F34B7D",
-    "Java": "#B07219",
     "Go": "#00ADD8",
-    "Rust": "#DEA584",
     "Jupyter Notebook": "#DA5B0B",
 }
 LANGUAGE_FALLBACK = "#8B949E"
@@ -75,7 +83,7 @@ def fetch(login, token):
         headers={
             "Authorization": f"bearer {token}",
             "Content-Type": "application/json",
-            "User-Agent": f"{login}-stats-card",
+            "User-Agent": f"{login}-character-sheet",
         },
     )
     with urllib.request.urlopen(request, timeout=30) as response:
@@ -102,9 +110,6 @@ def current_streak(days):
     A zero-count today does not break the streak, since the day is still
     in progress when the workflow runs.
     """
-    if not days:
-        return 0
-
     streak = 0
     for index, day in enumerate(reversed(days)):
         if day["contributionCount"] > 0:
@@ -164,114 +169,158 @@ def collect(user):
     }
 
 
+def level_of(contributions):
+    """One level per 100 contributions in the last year. Returns (level, xp into it)."""
+    return 1 + contributions // 100, contributions % 100
+
+
 def escape(text):
-    """Escape the three characters that matter inside SVG text nodes."""
-    return str(text).replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
+    """Escape the characters that matter inside SVG text and attributes."""
+    return (
+        str(text)
+        .replace("&", "&amp;")
+        .replace("<", "&lt;")
+        .replace(">", "&gt;")
+        .replace('"', "&quot;")
+    )
+
+
+def attribute_rows(stats, x, y):
+    """Six RPG attributes, each backed by a real number and a log-scaled bar."""
+    # (short name, real meaning, value, value that fills the bar)
+    rows = [
+        ("STR", "commits", stats["commits"], 2000),
+        ("DEX", "pull requests", stats["pull_requests"], 200),
+        ("INT", "repositories", stats["repos"], 60),
+        ("WIS", "reviews given", stats["reviews"], 50),
+        ("CHA", "followers", stats["followers"], 200),
+        ("LCK", "stars earned", stats["stars"], 200),
+    ]
+
+    parts = []
+    for index, (short, meaning, value, cap) in enumerate(rows):
+        column = index % 2
+        row = index // 2
+        rx = x + column * 250
+        ry = y + row * 44
+        fill = min(1.0, math.log10(value + 1) / math.log10(cap + 1))
+        parts.append(
+            f'<text x="{rx}" y="{ry}" fill="{GOLD}" font-family="{SERIF}" '
+            f'font-size="15" font-weight="700" letter-spacing="2">{short}</text>'
+        )
+        parts.append(
+            f'<text x="{rx + 44}" y="{ry}" fill="{MUTED}" font-size="12">'
+            f"{escape(meaning)}</text>"
+        )
+        parts.append(
+            f'<text x="{rx + 220}" y="{ry}" fill="{TEXT}" font-size="14" '
+            f'font-weight="600" text-anchor="end">{escape(value)}</text>'
+        )
+        parts.append(
+            f'<rect x="{rx}" y="{ry + 9}" width="220" height="5" rx="2.5" fill="{LINE}"/>'
+        )
+        parts.append(
+            f'<rect x="{rx}" y="{ry + 9}" width="{220 * fill:.1f}" height="5" rx="2.5" '
+            f'fill="{GOLD}"/>'
+        )
+    return "\n  ".join(parts)
 
 
 def language_bar(languages, x, y, width):
-    """Render a proportional stacked bar plus a legend row."""
+    """Proportional stacked bar plus a legend row."""
     if not languages:
         return ""
 
     total = sum(count for _, count in languages)
-    parts = []
+    parts = [
+        f'<text x="{x}" y="{y - 12}" fill="{MUTED}" font-family="{SERIF}" '
+        f'font-size="12" letter-spacing="2">SCHOOLS OF MAGIC</text>'
+    ]
     offset = x
-
     for name, count in languages:
         segment = width * count / total
         colour = LANGUAGE_COLORS.get(name, LANGUAGE_FALLBACK)
         parts.append(
-            f'<rect x="{offset:.1f}" y="{y}" width="{segment:.1f}" height="8" '
-            f'fill="{colour}"/>'
+            f'<rect x="{offset:.1f}" y="{y}" width="{segment:.1f}" height="8" fill="{colour}"/>'
         )
         offset += segment
 
     legend_x = x
-    for name, _ in languages:
+    for name, count in languages:
         colour = LANGUAGE_COLORS.get(name, LANGUAGE_FALLBACK)
+        label = f"{name} {round(100 * count / total)}%"
+        parts.append(f'<circle cx="{legend_x + 4}" cy="{y + 26}" r="4" fill="{colour}"/>')
         parts.append(
-            f'<circle cx="{legend_x + 4}" cy="{y + 30}" r="4" fill="{colour}"/>'
-        )
-        parts.append(
-            f'<text x="{legend_x + 14}" y="{y + 34}" fill="{TEXT}" '
-            f'font-size="12">{escape(name)}</text>'
-        )
-        legend_x += 26 + len(name) * 6.6
-
-    return "\n  ".join(parts)
-
-
-def stat_rows(stats, x, y):
-    """Render the two-column list of headline numbers."""
-    rows = [
-        ("Commits (last year)", stats["commits"]),
-        ("Stars earned", stats["stars"]),
-        ("Pull requests", stats["pull_requests"]),
-        ("Issues opened", stats["issues"]),
-        ("Reviews given", stats["reviews"]),
-        ("Public repositories", stats["repos"]),
-    ]
-
-    parts = []
-    for index, (label, value) in enumerate(rows):
-        column = index % 2
-        row = index // 2
-        row_x = x + column * 240
-        row_y = y + row * 30
-        parts.append(
-            f'<text x="{row_x}" y="{row_y}" fill="{MUTED}" font-size="13">'
+            f'<text x="{legend_x + 14}" y="{y + 30}" fill="{TEXT}" font-size="12">'
             f"{escape(label)}</text>"
         )
-        parts.append(
-            f'<text x="{row_x + 200}" y="{row_y}" fill="{TEXT}" font-size="13" '
-            f'font-weight="600" text-anchor="end">{escape(value)}</text>'
-        )
-
+        legend_x += 30 + len(label) * 6.6
     return "\n  ".join(parts)
 
 
-def render(stats):
+def render(stats, now=None):
     """Assemble the full SVG document."""
-    font = (
-        "-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', "
-        "Helvetica, Arial, sans-serif"
+    now = now or datetime.now(timezone.utc)
+    level, xp = level_of(stats["contributions"])
+    streak = stats["current_streak"]
+    lit = streak > 0
+
+    # The bonfire flickers while the streak is alive and is grey ash otherwise.
+    flame = EMBER if lit else LINE
+    flicker = (
+        '<animate attributeName="opacity" values="1;0.65;1;0.8;1" dur="1.6s" '
+        'repeatCount="indefinite"/>'
+        if lit
+        else ""
     )
-    updated = datetime.utcnow().strftime("%d %b %Y")
 
-    return f"""<svg xmlns="http://www.w3.org/2000/svg" width="820" height="300"
-     viewBox="0 0 820 300" font-family="{font}" role="img"
-     aria-label="GitHub statistics for {escape(stats['login'])}">
-  <rect width="820" height="300" rx="10" fill="{BACKGROUND}"/>
-  <rect x="0" y="0" width="820" height="3" rx="1.5" fill="{ACCENT}"/>
+    return f"""<svg xmlns="http://www.w3.org/2000/svg" width="820" height="350"
+     viewBox="0 0 820 350" font-family="{SANS}" role="img"
+     aria-label="Character sheet for {escape(stats['login'])}: level {level}, {stats['contributions']} contributions in the last year, {stats['commits']} commits, {stats['stars']} stars, {streak} day streak">
+  <rect width="820" height="350" rx="12" fill="{INK}"/>
+  <rect x="8" y="8" width="804" height="334" rx="8" fill="{PLATE}" stroke="{LINE}"/>
+  <rect x="14" y="14" width="792" height="322" rx="6" fill="none" stroke="{GOLD}" stroke-opacity="0.35"/>
 
-  <text x="32" y="46" fill="{ACCENT}" font-size="16" font-weight="700">
+  <text x="36" y="52" fill="{GOLD_HI}" font-family="{SERIF}" font-size="22" font-weight="700" letter-spacing="1">
     {escape(stats['login'])}
   </text>
-  <text x="32" y="66" fill="{MUTED}" font-size="12">
-    {escape(stats['contributions'])} contributions in the last year
+  <text x="36" y="72" fill="{MUTED}" font-family="{SERIF}" font-size="13" font-style="italic">
+    Codemancer of Orvia · Vijaybhoomi University · CSE '28
   </text>
 
-  {stat_rows(stats, 32, 110)}
+  <text x="530" y="52" fill="{GOLD}" font-family="{SERIF}" font-size="13" letter-spacing="2" text-anchor="end">LEVEL</text>
+  <text x="530" y="78" fill="{GOLD_HI}" font-family="{SERIF}" font-size="30" font-weight="700" text-anchor="end">{level}</text>
 
-  <line x1="560" y1="40" x2="560" y2="200" stroke="{MUTED}" stroke-opacity="0.3"/>
-
-  <text x="690" y="86" fill="{ACCENT}" font-size="42" font-weight="700"
-        text-anchor="middle">{escape(stats['current_streak'])}</text>
-  <text x="690" y="106" fill="{MUTED}" font-size="12" text-anchor="middle">
-    day current streak
+  <rect x="36" y="88" width="494" height="6" rx="3" fill="{LINE}"/>
+  <rect x="36" y="88" width="{494 * xp / 100:.1f}" height="6" rx="3" fill="{EMBER}"/>
+  <text x="36" y="110" fill="{MUTED}" font-size="11">
+    {stats['contributions']} contributions this year · {100 - xp} XP to level {level + 1}
   </text>
 
-  <text x="690" y="160" fill="{TEXT}" font-size="24" font-weight="600"
-        text-anchor="middle">{escape(stats['longest_streak'])}</text>
-  <text x="690" y="180" fill="{MUTED}" font-size="12" text-anchor="middle">
-    longest this year
+  {attribute_rows(stats, 36, 142)}
+
+  <line x1="572" y1="36" x2="572" y2="240" stroke="{GOLD}" stroke-opacity="0.25"/>
+
+  <g transform="translate(690 70)">
+    <path d="M-22 44 L22 44 M-16 50 L16 50" stroke="{MUTED}" stroke-width="3" stroke-linecap="round"/>
+    <path d="M-3 46 L6 -6" stroke="{MUTED}" stroke-width="4" stroke-linecap="round"/>
+    <path d="M0 40 C-20 30 -14 10 -4 -2 C-6 14 4 16 4 4 C14 16 18 32 0 40 Z" fill="{flame}">{flicker}</path>
+  </g>
+  <text x="690" y="152" fill="{GOLD_HI}" font-family="{SERIF}" font-size="34" font-weight="700" text-anchor="middle">{streak}</text>
+  <text x="690" y="172" fill="{MUTED}" font-size="12" text-anchor="middle">
+    {"day bonfire streak" if lit else "bonfire unlit (no streak)"}
+  </text>
+  <text x="690" y="204" fill="{TEXT}" font-size="13" text-anchor="middle">
+    longest this year: {stats['longest_streak']} days
+  </text>
+  <text x="690" y="226" fill="{MUTED}" font-size="12" text-anchor="middle">
+    {stats['issues']} issues opened
   </text>
 
-  {language_bar(stats['languages'], 32, 226, 756)}
+  {language_bar(stats['languages'], 36, 290, 748)}
 
-  <text x="788" y="290" fill="{MUTED}" font-size="10" text-anchor="end">
-    updated {updated}
+  <text x="784" y="332" fill="{MUTED}" fill-opacity="0.7" font-size="10" text-anchor="end">
+    rested at a bonfire {now.strftime('%d %b %Y')}
   </text>
 </svg>
 """

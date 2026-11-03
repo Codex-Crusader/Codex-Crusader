@@ -25,4 +25,4 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git diff --quiet && git diff --staged --quiet || (git add README.md && git commit -m "chore: update repo table" && git push)
+          git diff --quiet && git diff --staged --quiet || (git add README.md && git commit -m "chore: update repo table" && git pull --rebase --quiet origin main && git push)

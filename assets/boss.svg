@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="280"
+     viewBox="0 0 820 280" font-family="-apple-system, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" role="img"
+     aria-label="Boss fight: The Off-by-One Ogre has 80 of 80 HP. Bugs felled: 0.">
+  <rect width="820" height="280" rx="12" fill="#0A0806"/>
+  <rect x="8" y="8" width="804" height="264" rx="8" fill="#15100B" stroke="#3B2E1E"/>
+  <rect x="14" y="14" width="792" height="252" rx="6" fill="none" stroke="#E8662C" stroke-opacity="0.35"/>
+
+  <g transform="translate(110 142)">
+    <animateTransform attributeName="transform" type="translate"
+      values="110 142; 110 136; 110 142" dur="3s" repeatCount="indefinite"/>
+    
+    <path d="M-18 -10 q-26 -10 -40 8" stroke="#8C6A3F" stroke-width="5" fill="none" stroke-linecap="round"/><path d="M18 -10 q26 -10 40 8" stroke="#8C6A3F" stroke-width="5" fill="none" stroke-linecap="round"/><path d="M-18 6 q-26 -6 -40 14" stroke="#8C6A3F" stroke-width="5" fill="none" stroke-linecap="round"/><path d="M18 6 q26 -6 40 14" stroke="#8C6A3F" stroke-width="5" fill="none" stroke-linecap="round"/><path d="M-18 22 q-26 -2 -40 20" stroke="#8C6A3F" stroke-width="5" fill="none" stroke-linecap="round"/><path d="M18 22 q26 -2 40 20" stroke="#8C6A3F" stroke-width="5" fill="none" stroke-linecap="round"/>
+    <ellipse cx="0" cy="8" rx="30" ry="36" fill="#8C6A3F"/>
+    <ellipse cx="0" cy="8" rx="30" ry="36" fill="none" stroke="#0A0806" stroke-opacity="0.4" stroke-width="2"/>
+    <path d="M0 -26 L0 42" stroke="#0A0806" stroke-opacity="0.35" stroke-width="2"/>
+    <circle cx="0" cy="-34" r="18" fill="#8C6A3F"/>
+    <path d="M-8 -50 q-10 -16 -22 -14 M8 -50 q10 -16 22 -14" stroke="#8C6A3F" stroke-width="3" fill="none"/>
+    <circle cx="-7" cy="-36" r="4" fill="#F3D48E">
+      <animate attributeName="opacity" values="1;0.3;1" dur="2.4s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="7" cy="-36" r="4" fill="#F3D48E">
+      <animate attributeName="opacity" values="1;0.3;1" dur="2.4s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <text x="220" y="62" fill="#F3D48E" font-family="Georgia, 'Times New Roman', serif" font-size="22" font-weight="700">The Off-by-One Ogre</text>
+  <text x="220" y="84" fill="#BCAC8D" font-family="Georgia, 'Times New Roman', serif" font-size="13" font-style="italic">who guards every loop boundary</text>
+
+  <rect x="220" y="104" width="300" height="12" rx="2" fill="#3B2E1E"/>
+  <rect x="220" y="104" width="300.0" height="12" rx="2" fill="#E8662C"/>
+  <text x="220" y="136" fill="#EFE4CC" font-size="13">80 / 80 HP</text>
+
+  <text x="220" y="172" fill="#BCAC8D" font-size="12">Bugs felled: <tspan fill="#F3D48E" font-weight="700">0</tspan></text>
+  <text x="220" y="196" fill="#BCAC8D" font-size="12">No bug has fallen yet.</text>
+
+  <line x1="558" y1="36" x2="558" y2="244" stroke="#D6A553" stroke-opacity="0.2"/>
+  <text x="578" y="54" fill="#D6A553" font-family="Georgia, 'Times New Roman', serif" font-size="12" letter-spacing="2">LAST BLOWS</text>
+  <text x="578" y="78" fill="#BCAC8D" font-size="13" font-style="italic">No one has struck yet.</text>
+  <text x="578" y="184" fill="#D6A553" font-family="Georgia, 'Times New Roman', serif" font-size="12" letter-spacing="2">TOP DAMAGE</text>
+  <text x="578" y="206" fill="#BCAC8D" font-size="13" font-style="italic">none yet</text>
+
+  <text x="220" y="250" fill="#BCAC8D" fill-opacity="0.7" font-size="10">one issue, one swing · 5 minute stamina cooldown</text>
+</svg>

@@ -1,0 +1,66 @@
+name: Boss fight
+
+on:
+  issues:
+    types: [opened]
+
+permissions:
+  contents: write
+  issues: write
+
+jobs:
+  fight:
+    # startsWith is case-insensitive. The script re-checks the exact title.
+    if: startsWith(github.event.issue.title, 'boss:') && github.event.issue.user.type != 'Bot'
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Swing, commit, reply
+        env:
+          # Untrusted input goes through env only, never into the script text.
+          ISSUE_TITLE: ${{ github.event.issue.title }}
+          ISSUE_USER: ${{ github.event.issue.user.login }}
+          ISSUE_NUMBER: ${{ github.event.issue.number }}
+          REPLY_PATH: ${{ runner.temp }}/reply.md
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          # Other swings and the daily jobs push too, so replay on a fresh main until the push lands.
+          landed=0
+          for attempt in 1 2 3 4 5; do
+            git fetch --quiet origin main
+            git reset --quiet --hard origin/main
+            rm -f "$REPLY_PATH"
+            python -I .github/scripts/boss_fight.py
+            if [ ! -f "$REPLY_PATH" ]; then
+              echo "Not a boss move, leaving the issue alone."
+              exit 0
+            fi
+            git add assets/boss.json assets/boss.svg
+            if git diff --staged --quiet; then
+              landed=1
+              break
+            fi
+            git commit --quiet -m "chore: boss fight, issue #$ISSUE_NUMBER"
+            if git push --quiet origin HEAD:main; then
+              landed=1
+              break
+            fi
+            sleep $((RANDOM % 8 + 2))
+          done
+
+          if [ "$landed" != 1 ]; then
+            echo "Could not push after 5 attempts." >&2
+            exit 1
+          fi
+
+          gh issue comment "$ISSUE_NUMBER" --repo "$GITHUB_REPOSITORY" --body-file "$REPLY_PATH"
+          gh issue close "$ISSUE_NUMBER" --repo "$GITHUB_REPOSITORY"
