@@ -1,20 +1,25 @@
 {
   "boss": 0,
   "damage": {
-    "Codex-Crusader": 12
+    "Codex-Crusader": 37
   },
   "felled": [],
-  "hp": 68,
+  "hp": 43,
   "last_hit": {
-    "Codex-Crusader": "2026-11-03T10:23:02.452095+00:00"
+    "Codex-Crusader": "2026-11-05T06:53:54.230280+00:00"
   },
   "log": [
+    {
+      "dmg": 25,
+      "user": "Codex-Crusader"
+    },
     {
       "dmg": 12,
       "user": "Codex-Crusader"
     }
   ],
   "processed": [
-    1
+    1,
+    3
   ]
 }
