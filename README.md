@@ -68,7 +68,7 @@ My best work, ranked by stars. Rarity updates itself every day.
 <!-- REPOS_END -->
 
 <!-- RECENT_START -->
-**Recently forged:** [visitor-access-project](https://github.com/Codex-Crusader/visitor-access-project) (2026-11-08) · [unstrung](https://github.com/Codex-Crusader/unstrung) (2026-11-07) · [Rice-sauce-hair](https://github.com/Codex-Crusader/Rice-sauce-hair) (2026-10-28)
+**Recently forged:** [unstrung](https://github.com/Codex-Crusader/unstrung) (2026-11-10) · [visitor-access-project](https://github.com/Codex-Crusader/visitor-access-project) (2026-11-08) · [Rice-sauce-hair](https://github.com/Codex-Crusader/Rice-sauce-hair) (2026-10-28)
 <!-- RECENT_END -->
 
 All of it lives [here](https://github.com/Codex-Crusader?tab=repositories&sort=stargazers).
